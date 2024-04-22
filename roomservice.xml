@@ -11,7 +11,7 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LOS" revision="lineage-20" />
 
   <!-- Hardware Supports -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="t25" revision="lineage-20" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="t25" revision="lineage-20_blossom" />
 
   <!-- Kernel Trees -->
   <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="t25" revision="lineage-20">
