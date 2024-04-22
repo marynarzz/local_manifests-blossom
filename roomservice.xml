@@ -2,12 +2,13 @@
 <manifest>
 
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
+  <remote name="LOS" fetch="https://github.com/LineageOS" />
 
   <!-- Device Trees -->
   <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="t25" revision="lmodroid-thirteen" />
 
   <!-- SELinux Policies -->
-  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" revision="lineage-20" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LOS" revision="lineage-20" />
 
   <!-- Hardware Supports -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="t25" revision="lineage-20" />
