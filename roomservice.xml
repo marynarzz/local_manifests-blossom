@@ -6,22 +6,22 @@
   <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="AOS" fetch="https://github.com/ArrowOS" />
 
-  <!-- Device Trees -->
+  <!-- device tree -->
   <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="t25" revision="yaap-fourteen" />
 
-  <!-- SELinux Policies -->
+  <!-- SELinux policies -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="25ji" revision="fourteen" />
 
-  <!-- Hardware Supports -->
+  <!-- hardware supports -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="25ji" revision="fourteen" />
   <!-- <project path="hardware/miku/interfaces" name="android_hardware_miku_interfaces" remote="25ji" revision="Udon_v2" /> -->
 
-  <!-- Kernel Trees -->
+  <!-- kernel tree -->
   <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="t25" revision="Udon_v2">
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project>
 
-  <!-- Vendor Trees -->
+  <!-- vendor tree -->
   <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="t25" revision="Udon_v2" />
 
   <!-- Samsung NFC
