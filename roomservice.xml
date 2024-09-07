@@ -7,7 +7,7 @@
   <remote name="AOS" fetch="https://github.com/ArrowOS" />
 
   <!-- device tree -->
-  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="t25" revision="yaap-fourteen" />
+  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="t25" revision="y5" />
 
   <!-- SELinux policies -->
   <remove-project name="android_device_mediatek_sepolicy_vndr"/>
