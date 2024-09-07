@@ -11,10 +11,10 @@
 
   <!-- SELinux policies -->
   <remove-project name="android_device_mediatek_sepolicy_vndr"/>
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="25ji" revision="fourteen" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="25ji" revision="fifteen" />
 
   <!-- hardware supports -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="25ji" revision="fourteen" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="25ji" revision="fifteen" />
   <!-- <project path="hardware/miku/interfaces" name="android_hardware_miku_interfaces" remote="25ji" revision="Udon_v2" /> -->
 
   <!-- kernel tree -->
